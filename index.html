@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turio | Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <script
+      src="https://kit.fontawesome.com/dabff537d3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <a href="">
+        <img src="images/logo.svg" alt="Turio Logo" />
+      </a>
+      <nav>
+        <a href="">HOME</a>
+        <a href=""> ABOUT US <i class="fa-solid fa-plus"></i></a>
+        <a href=""> DESTINATION <i class="fa-solid fa-plus"></i></a>
+        <a href=""> TOUR <i class="fa-solid fa-plus"></i></a>
+        <a href="">BLOG</a>
+        <a href="">PAGES <i class="fa-solid fa-plus"></i></a>
+        <a href=""> FAQ <i class="fa-solid fa-plus"></i></a>
+        <a href=""> CONTACT US</a>
+      </nav>
+      <div class="contact-info">
+        <div class="phone">
+          <i class="fa-solid fa-phone-volume"></i>
+          <div class="numbr">
+            Hot Line Number
+            <a href="tel:+880 176 1111 456"> +880 176 1111 456</a>
+          </div>
+        </div>
+        <button>
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </header>
+    <section class="owl-carousel banner-slider">
+      <div class="banner">
+        <img src="images/banner.png" alt="" />
+        <div class="banner-content">
+          <div class="tagline">Enjoy Your holiday</div>
+          <div class="banner-heading">Make Memories with tour</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eum
+            provident ratione quisquam, dolorem numquam accusantium quis quo
+            illum nihil!
+          </p>
+          <a href="">Explore more</a>
+        </div>
+      </div>
+      <div class="banner">
+        <img src="images/banner.png" alt="" />
+        <div class="banner-content">
+          <div class="tagline">Enjoy Your holiday</div>
+          <div class="banner-heading">Make Memories with tour</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eum
+            provident ratione quisquam, dolorem numquam accusantium quis quo
+            illum nihil!
+          </p>
+          <a href="">Explore more</a>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".banner-slider").owlCarousel({
+          items:1
+        });
+      });
+    </script>
+  </body>
+</html>

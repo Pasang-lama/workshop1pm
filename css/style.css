@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+:root{
+    --primary-color : #54A15D;
+}
+
+header{
+    background-color: #3a444880;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+header nav a{
+    margin-right:20px;
+}
+header nav a:last-child{
+    margin-right: 0px;
+}
+
+header nav a:hover{
+    color: var(--primary-color);
+}
+
+
+header nav a i{
+    font-size: 14px;
+    margin-left: 5px;
+    color: var(--primary-color);
+}
+
+.contact-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.contact-info .phone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contact-info .phone a{
+    display: block;
+}
+.contact-info button{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.banner{
+    height: 100vh;
+    position: relative;
+    background-color: black;
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.banner-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.banner-content .tagline{
+    font-size: 24px;
+    font-weight: 500;
+}
+.banner-content .banner-heading{
+    font-size: 56px;
+    font-weight: 700;  
+}
+.banner-content p{
+    font-size: 20px;
+}
+
+.banner-content a{
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+}
+.banner-content a:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
